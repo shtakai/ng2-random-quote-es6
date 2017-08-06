@@ -8,10 +8,7 @@
   })
   .Class({
     constructor: [QuoteService, function RandomQuoteComponent(quoteService) {
-      var self = this;
-      quoteService.generateRandomQuotes(2000, function(quote) {
-        self.quote = quote;
-      });
+      quoteService.generateRandomQuotes(2000, (quote) => this.quote = quote)
     }]
   });
 

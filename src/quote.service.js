@@ -6,15 +6,12 @@
       this.quotes = sampleQuotes;
     },
     getRandomQuote: function() {
-      var randomIndex = Math.floor(Math.random() * this.quotes.length);
+      const randomIndex = Math.floor(Math.random() * this.quotes.length);
       return this.quotes[randomIndex];
     },
     generateRandomQuotes: function(delay, callback) {
-      var self = this;
       callback(this.getRandomQuote());
-      setTimeout(function() {
-        callback(self.getRandomQuote());
-      }, delay);
+      setTimeout(()  => callback(this.getRandomQuote(), delay))
     }
   });
 
