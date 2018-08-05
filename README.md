@@ -1,5 +1,7 @@
 # Random Quote - ES6
 
+[![GuardRails badge](https://badges.production.guardrails.io/shtakai/ng2-random-quote-es6.svg)](https://www.guardrails.io)
+
 A simple Angular 2 web application that displays a random quote on the page.
 
 To work on this project:
