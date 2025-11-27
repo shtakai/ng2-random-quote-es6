@@ -6,7 +6,7 @@
     "serve": "concurrently \"babel -w src -d app\" lite-server"
   },
   "dependencies": {
-    "@angular/common": "2.0.1",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "2.0.1",
     "@angular/core": "2.0.1",
     "@angular/platform-browser": "2.0.1",
